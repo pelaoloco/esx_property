@@ -15,7 +15,7 @@ Locales['es'] = {
 	--- Furniture Strings ------
 
 	["height"] = "Altura",
-	["rotate"] = "Rotación",
+	["rotate"] = "Rotar",
 	["place"] = "Colocar mueble",
 	["delete_furni"] = "Borrar",
 	["confirm_buy"] = "¿Quieres comprar %s?",
@@ -25,7 +25,7 @@ Locales['es'] = {
 	["action"] = "¡ Tu %s ~b~%s~s~ !",
 	["bought_furni"] = "¡ Has ~g~comprado~s~ un ~b~%s~s~ !",
 	["edited_furni"] = "¡ Has editado ~b~%s~s~ !",
-	["cannot_buy"] = "¡~r~No puedes~s~ comprar esto!",
+	["cannot_buy"] = "¡~r~No puedes~s~ permitirte esto!",
 	["cannot_edit"] = "¡Usted ~r~no puede~s~ editar esto!",
 	["store_title"] = "Tienda - %s",
 	["back"] = "Volver",
@@ -73,7 +73,7 @@ Locales['es'] = {
 	["property_create"] = "Crear propiedad",
 	["property_manage"] = "Administrar propiedades",
 	["realestate_command"] = "realestatequickmenu",
-	["realestate_command_desc"] = "(ESX Property) Abrir acciones rápidas inmobiliarias",
+	["realestate_command_desc"] = "(ESX Property) Abrir acciones inmobiliarias",
 	["enter_office"] = "~b~Entrando~a~la oficina.",
 	["enter_office_error"] = "¡Usted ~r~no puede~s~ entrar en la oficina!",
 	["exit_office"] = "~b~Saliendo~s~ de la oficina.",
@@ -83,9 +83,9 @@ Locales['es'] = {
 	------------Command Strings-------------------------------
 
 	["refresh_name"] = "property:refresh",
-	["refresh_desc"] = "Actualizar al estado de inicio del servidor",
+	["refresh_desc"] = "Actualizar el estado de inicio del servidor",
 	["save_name"] = "property:save",
-	["save_desc"] = "Forzar guardar propiedades",
+	["save_desc"] = "Forzar guardado de propiedades",
 	["create_name"] = "property:create",
 	["create_desc"] = "Crear una nueva propiedad",
 	["admin_name"] = "property:admin",
@@ -149,10 +149,10 @@ Locales['es'] = {
 	["disabled"] = "Desactivado",
 	["exiting"] = "Saliendo de la propiedad...",
 	["entering"] = "Entrando a la propiedad...",
-	["shell_disabled"] = "¡Este interior usa shells, que están deshabilitados!",
+	["shell_disabled"] = "¡Este interior usa shells, las cuales están deshabilitadas!",
 	["access_textui"] = "Pulsa ~b~[E]~s~ para acceder ~b~%s",
-	["raid_notify_error"] = "Necesitas ~b~ %sx %s~s~  para poder asaltar!",
-	["raid_notify_success"] = "¡Su propiedad está siendo actualmente ~b~Asaltada!",
+	["raid_notify_error"] = "Necesitas ~b~ %sx %s~s~  para poder robar una propiedad!",
+	["raid_notify_success"] = "¡Su propiedad está siendo actualmente ~b~robada!",
 
 	--------------- Garage Strings --------------
 
@@ -167,21 +167,21 @@ Locales['es'] = {
 
 	----------------- Creation Menu Strings ----------------
 
-	["menu_title"] = "Creación de propiedad",
+	["menu_title"] = "Crear propiedad",
 	["element_title1"] = "Número de calle",
-	["element_description1"] = "Establezca el número de calle de la propiedad.",
+	["element_description1"] = "Establezca el número de calle en la propiedad.",
 	["element_title2"] = "Precio",
 	["element_description2"] = "Fijar el Precio de la Propiedad.",
 	["element_title3"] = "Interior",
 	["element_description3"] = "Seleccione un interior para la propiedad",
 	["element_title4"] = "Garaje",
-	["element_description4"] = "(Opcional) Administrar la configuración del garaje",
+	["element_description4"] = "(Opcional) Configuración del garaje",
 	["element_title5"] = "CCTV",
-	["element_description5"] = "(Opcional) Administrar la configuración de CCTV",
+	["element_description5"] = "(Opcional) Configuración de CCTV",
 	["element_title6"] = "Entrada",
 	["element_description6"] = "Establezca la ubicación de entrada de la propiedad.",
 	["element_create_title"] = "Crear propiedad",
-	["element_create_desc_1"] = "¡Complete todas las entradas requeridas!",
+	["element_create_desc_1"] = "¡Complete todas las entradas solicitadas!",
 	["entrance_set_title"] = "Entrada establecida.",
 	["entrance_set_description"] = "Entrada: %s, %s, %s",
 	["interior_set_title"] = "Interior seleccionado.",
@@ -205,13 +205,13 @@ Locales['es'] = {
 	["cctv_textui_2"] = "Presione ~b~[E]~s~ para establecer la rotación máxima a la derecha",
 	["cctv_textui_3"] = "Presione ~b~[E]~s~ para establecer la rotación máxima a la izquierda",
 	["create_success"] = "¡Propiedad creada!",
-	["missing_data"] = "¡Complete todas las entradas requeridas!",
+	["missing_data"] = "¡Complete todos los datos requeridos para poder crear la propiedad!",
 
 	-- Saving Translations
 	["server_restart"] = "Reinicio del servidor",
-	["server_shutdown"] = "Apagado del servidor",
+	["server_shutdown"] = "Servidor apagado",
 	["manual_save"] = "Guardado manual (solicitado por %s)",
-	["resource_stop"] = "Detención de recurso",
+	["resource_stop"] = "Stop del script",
 	["force_save"] = "Forzar guardado (solicitado por %s)",
-	["interval_saving"] = "Intervalo de Guardado"
+	["interval_saving"] = "Tiempo de Guardado"
 }
